@@ -1,0 +1,33 @@
+
+class Person { //almost like String or int, creating a type
+	// Classes can contain 2 things
+	// 1. Data
+	// represents the state of objects like name, heartrate, address, mood
+	// 2. subroutines (methods)
+	
+	//Instance Variables (data or "state")
+	String name;
+	int age;
+	
+	
+	
+}
+
+
+public class classes { // when a class is public, the name must match the file name
+
+	public static void main(String[] args) { // this is a method, the main method 
+		
+		Person person1 = new Person(); // declaring a variable of type 'Person'
+		
+		person1.name = "Joe Bloggs"; //these are objects
+		person1.age = 37;
+		
+		Person person2 = new Person(); // look another object
+		person2.name = "Sebastian Michaelis";
+		person2.age = 12312;
+		
+		System.out.println(person1.name);
+	}
+
+}

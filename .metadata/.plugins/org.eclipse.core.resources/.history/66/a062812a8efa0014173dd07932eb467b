@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.*;
+
+public interface AobaJohsaiCharacterQuiz {
+	public static void main(String args[]){
+		Scanner reader = new Scanner(System.in);
+		
+		int x = 2;
+		while(x==2){
+		int w = reader.nextInt();
+		
+		if(w==2) {
+			String s = "swag";
+			System.out.println(s);
+		}
+		if(w==3) {
+			String s = "swagmuffinno";
+			System.out.println(s);
+		}
+		if(w==4) {
+			String s = "swagmuddin";
+			System.out.println(s);
+		}
+		if(w==5) {
+			String s = "swawhateveng";
+			System.out.println(s);
+		}
+		if(w==6) {
+			String s = "swaertetreeg";
+			System.out.println(s);
+		}
+		if(w==7) {
+			String s = "swagerert";
+			System.out.println(s);
+		}
+		if(w==32)
+			break;
+		}
+		
+		
+	}
+
+}

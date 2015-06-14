@@ -1,0 +1,48 @@
+import java.util.*;
+import java.io.*;
+
+public class lectures {
+	public static void main(String args[]){
+		// lecture #8 do-while statements
+		/**
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		// this is the action done
+		int value = 0;
+		do {
+			System.out.println("Enter a number");
+			value = scanner.nextInt();
+		}
+		//this is the condition under which the action stops
+		while(value != 5);
+		System.out.println("Got 5!");
+		**/
+		
+		// lecture #9 switch statements
+		
+		Scanner input = new Scanner(System.in);
+		
+		String text = input.nextLine();
+		System.out.println("Please enter a command.");
+		
+		switch(text) {
+		case "start":
+			System.out.println("Machine started.");
+			break;
+		case "stop":
+			System.out.println("Machine stopped.");
+			break;
+		default:
+			System.out.println("That is not a valid command.");
+			break;
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

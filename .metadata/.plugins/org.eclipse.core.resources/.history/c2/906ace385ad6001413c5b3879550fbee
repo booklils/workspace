@@ -1,0 +1,130 @@
+import java.io.*;
+import java.util.*;
+
+public class stats {
+	public static void main(String args[]){
+		
+		Scanner reader = new Scanner(System.in);
+		
+		
+		int[] inputter = new int[101];
+		boolean switchy = true;
+		int counter=0;
+		int halp = 0;
+		int[] inputter2 = inputter;
+		int sum=0;
+		int highest = 0;
+		int least = 100;
+		int comparison = 0;
+		int[] mediany = new int[101];
+		int mode = -5;
+		int mode2 = 0,m1=0,m2=0;
+		int[] dev = new int[101];
+	
+		while(switchy)
+		{
+			
+			counter++;
+
+			System.out.println("Input an integer between 0-100");
+			halp = reader.nextInt();
+			
+			
+			if(mediany[counter]!=halp)
+				mediany[counter]=halp;
+			if(mediany[counter]==halp)
+				mediany[counter+1]=halp;
+			
+			
+			if(halp==-1)
+				break;
+			if(halp>-1)
+				inputter2[halp]+=1;
+			if(highest<halp)
+			{
+				highest = halp;
+			}
+			if(least>halp)
+			{
+				least = halp;
+			}
+			
+		}
+		
+		for(int i=0;i<101;i++)
+		{
+			sum += inputter2[i]*i;
+		}
+		
+		
+
+		int average = sum/(counter);
+		System.out.println("The average of your inputs is "+average);
+		System.out.println("The highest value inputted is "+highest);
+		System.out.println("The smallest value inputted is "+least);
+		
+		for(int y = 0;y<101;y++)
+		{
+			if(inputter2[y]>0)
+				comparison++;
+		}
+		
+		
+		int med;
+		if(counter%2!=0)
+			med = mediany[(counter)/2];
+		else
+			med = (mediany[counter/2]+mediany[(counter/2)+1])/2;
+			
+		System.out.println("The median is "+med);
+		
+		for(int j = 0;j<counter;j++)
+		{
+			
+			if(inputter[j]>mode)
+			{
+				mode = inputter2[j];
+				
+			}
+			if(inputter[j]==mode&&inputter[j]<2)
+				mode = 0;
+		}
+	
+		if(mode == 0)
+			System.out.println("There is no mode.");
+		if(mode != 0)
+		{
+			for(int a =0;a<101;a++)
+			{
+				if(inputter[a]==mode)
+				{
+					m1 = a;
+					System.out.println("A mode is " + m1);
+				}
+			}
+		}
+		for(int b=0;b<101;b++)
+		{	
+			
+			dev[b]=(inputter2[b]*((b)-average))*(inputter2[b]*((b)-average));//B and inputter b are backwards
+
+		}
+		int summer = 0;
+		for(int h = 0; h<comparison+1;h++)
+		{
+			summer += dev[h];
+		}
+		double deviation = (double)summer/(double)comparison;
+		
+		double stdv = Math.sqrt(deviation);
+		
+		System.out.println("The standard deviation of you inputs is " + stdv);
+		
+		
+		
+		
+	}
+
+}
+
+

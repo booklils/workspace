@@ -1,0 +1,34 @@
+class Frog {
+	String name;
+	int age;
+	public String getName() { //must return a String
+		return name;
+	}
+	public int getAge() { //this is a get method
+		return age;
+	}
+	//set methods allow you to set the data eliminating the worry over internal variables
+	public void setName(String newName) { //does not need to return anything
+		name = newName;
+	}
+}
+
+public class SettersandThis {
+	public static void main(String args[]){
+		
+		Frog tobio = new Frog();
+		
+		tobio.name = "Tobio-chan";
+		
+		tobio.age = 1;
+		
+		tobio.setName("Tobio-chan"); //this is effectively 
+		//doing the same thing as above (tobio.name = "Tobio-chan");
+		//but this is CALLING A METHOD whereas above you are simply calling a variable
+		
+		
+		System.out.println(tobio.getName());
+		
+	}
+
+}

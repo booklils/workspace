@@ -1,0 +1,20 @@
+import java.util.*;
+import java.io.*;
+
+public class starsquare {
+	public static void main(String args[]){
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input the side of the square that you want.");
+		int value = nextInt();
+		
+		for(int j=0;j<value;j++)
+		{
+			for(int i=0;i<value;i++)
+			{
+				System.out.print("# ");
+			}
+		}
+	}
+
+}

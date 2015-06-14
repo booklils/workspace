@@ -1,0 +1,31 @@
+import java.util.*;
+import java.io.*;
+
+public class starsquare {
+	public static void main(String args[]){
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input a string.");
+		String norm = input.nextLine();
+		
+		int normnum = norm.length();
+		
+		if(normnum<3)
+		{
+			String normcap = norm.toUpperCase();
+			System.out.println(normcap);
+			
+		}
+		else
+		{
+			String normcapper = norm.substring(normnum-3,normnum);
+			String normal = norm.substring(0,  normnum-3);
+			String nor = normcapper.toUpperCase();
+			System.out.println(normal+nor);
+		}
+		
+		
+		
+	}
+
+}

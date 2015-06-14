@@ -1,0 +1,10 @@
+
+public class tester {
+	public static void main(String args[]){
+		BankAccount myAccount = new BankAccount(1000,"Hinata Shouyou");
+		myAccount.deposit(505.22);
+		System.out.println(myAccount.balance());
+		
+		
+	}
+}

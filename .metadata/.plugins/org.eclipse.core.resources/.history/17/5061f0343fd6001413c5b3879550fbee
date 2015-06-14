@@ -1,0 +1,24 @@
+class Person { //usually classes are put in their own file, and declared public
+	String name;
+	int age;
+	
+	void speak() {
+		System.out.println("My name is: "+name);
+	}
+}
+
+
+
+public class GettersandReturnValues {
+	public static void main(String args[]) {
+		
+		Person person1 = new Person();
+		
+		person1.name = "Kaneki";
+		person1.age = 17;
+		
+		person1.speak();
+		
+	}
+
+}

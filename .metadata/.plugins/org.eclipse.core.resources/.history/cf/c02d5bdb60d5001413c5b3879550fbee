@@ -1,0 +1,23 @@
+import java.util.*;
+import java.io.*;
+
+public class starsquare {
+	public static void main(String args[]){
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input a string.");
+		String complete = input.nextLine();
+		System.out.println("Input another string.");
+		String inside = input.nextLine();
+		
+		String end=complete.substring(3,4);
+		String first = complete.substring(0,2);
+		
+		System.out.println(first+inside+end);
+		
+		
+		
+		
+	}
+
+}

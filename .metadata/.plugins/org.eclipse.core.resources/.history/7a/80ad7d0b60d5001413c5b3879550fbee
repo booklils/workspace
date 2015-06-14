@@ -1,0 +1,38 @@
+import java.util.*;
+import java.io.*;
+
+public class starsquare {
+	public static void main(String args[]){
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input a number.");
+		int value = input.nextInt();
+		
+		if(value>21)
+		{
+			int diff = value-21;
+			System.out.println("The absolute difference is "+diff);
+			
+		}
+		if(value<21&&value>0)
+		{
+			int diff2 = 21-value;
+			System.out.println("The absolute difference is "+diff2);
+			
+		}
+		if(value<21&&value<0&&value>-21)
+		{
+			int diff3 = value + 21;
+			System.out.println("The absolute difference is "+diff3);
+			
+		}
+		if(value<21&&value<0&&value<-21)
+		{
+			int diff4 = (value*-1)-21;
+			System.out.println("The absolute difference is "+diff4);
+			
+		}
+		
+	}
+
+}

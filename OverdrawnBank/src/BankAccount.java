@@ -1,0 +1,20 @@
+
+public class BankAccount {
+	private double balance;
+	private String name;
+	
+	public BankAccount(double a, String b){
+		balance = a;
+		name = b;
+	}
+	public void deposit(double a){
+		balance = balance+a;	
+	}
+	public void withdraw(double a){
+		balance = balance-a;
+	}
+	public double balance(){
+		return balance;
+	}
+
+}
