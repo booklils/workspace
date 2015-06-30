@@ -1,0 +1,16 @@
+
+public class Person29 {
+	
+	private String name;
+	
+	public Person29(String name) {
+		this.name = name;
+	}
+
+	
+	
+	public void greet() {
+		System.out.println("Hello there.");
+	}
+
+}

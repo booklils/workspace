@@ -1,0 +1,27 @@
+
+
+class Machine {
+	private String name;
+	private int code;
+	
+	public Machine() {
+		System.out.println("Contructor running...");
+		name = "Boyd";
+	}
+	public Machine(String name){
+		System.out.println("Second constructor running...");
+		this.name = name;
+	}
+	public Machine(String ename, int code) {
+		this.name = name;
+		this.code = code;
+	}
+}
+public class Constructors23 {
+	public static void main(String[] args){
+		Machine machine1 = new Machine();
+		new Machine();
+		Machine machine2 = new Machine("Sin Liu Vega");
+	}
+
+}

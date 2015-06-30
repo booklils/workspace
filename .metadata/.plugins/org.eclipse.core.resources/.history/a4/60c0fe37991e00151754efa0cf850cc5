@@ -1,0 +1,7 @@
+
+public class Car27 extends Machine27{
+//Car inherites everything from Machine (a car is a machine)
+	public void wipeWindShield() {
+		System.out.println("Wiping wind shield...");
+	}
+}

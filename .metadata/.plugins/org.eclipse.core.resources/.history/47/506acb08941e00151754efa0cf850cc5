@@ -1,0 +1,17 @@
+//toString for DEBUGGING 	
+class Frog {
+	
+	public String toString() {
+		return "Hello";
+	}
+}
+public class ThetoStringMethod26 {
+	public static void main(String args[]){
+		
+		Frog frog1 = new Frog();
+		
+		System.out.println(frog1);
+		
+	}
+
+}

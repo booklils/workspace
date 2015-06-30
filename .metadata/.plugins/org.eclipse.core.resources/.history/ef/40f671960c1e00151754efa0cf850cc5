@@ -1,0 +1,43 @@
+
+public class StringBuilderAndStringFormatting25 {
+	public static void main(String args[]){
+		//INEFFICIENT METHOD***
+		//once you made a string, you can never change it
+		String info = "";
+		//YOU ARE NOT CHANGING "info" BELOW
+		//ALL YOU ARE DOING IS CREATING NEW STRINGS
+		info += "My name is bob";
+		System.out.println(info); //DIFFERENT OUTPUT	
+		info += " ";
+		info += "I am a builder";
+		
+		System.out.println(info); //this outputs 
+		//something different than the above sysout
+		//////////////////////////////////////////////////////////
+		//MORE EFFICIENT***
+		StringBuilder sb = new StringBuilder("");
+		//this is just changing the same String
+		sb.append("My name is Laurent");
+		sb.append(" ");
+		sb.append("I am a lion tamer.");
+		
+		System.out.println(sb.toString());
+		
+		StringBuilder s = new StringBuilder();
+		
+		s.append("My name is Boyd.")
+		.append(" ")
+		.append("I am a spy");
+		
+		System.out.println(s.toString());
+		
+		//STRINGBUILDER IS THE SAME THING AS STRINGBUFFER, BUT NOT THREAD SAFE
+		
+		///////Formatting//////////////////////////////////////
+		
+		System.out.print("Here is some text.\tThat was a tab.\nThat was a newline");
+		
+		
+	}
+
+}

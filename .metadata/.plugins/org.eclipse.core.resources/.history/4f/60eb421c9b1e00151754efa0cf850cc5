@@ -1,0 +1,15 @@
+//hypothetical space where package code would be
+import ocean.Seaweed; //Ctrl + Space will automatically import classes
+import ocean.fish; //now you can use the fish class in the ocean package
+// import ocean.*; means import EVERY class in the ocean package
+public class Packages28 {
+	public static void main(String args[]){
+		fish fish = new fish();
+		Seaweed weed = new Seaweed();
+		
+		//Eclipse can also automatically add import statements if it can find the class
+		//YOU CAN HAVE PACKAGES WITHIN PACKAGES (folders within folders)
+		//use '.' to separate subpackages and packages (ocean.plant)
+	}
+
+}

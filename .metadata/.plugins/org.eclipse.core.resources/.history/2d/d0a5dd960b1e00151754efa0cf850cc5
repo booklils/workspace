@@ -1,0 +1,18 @@
+
+public class StringBuilderAndStringFormatting25 {
+	public static void main(String args[]){
+		
+		//once you made a string, you can never change it
+		String info = "";
+		//YOU ARE NOT CHANGING "info" BELOW
+		//ALL YOU ARE DOING IS CREATING NEW STRINGS
+		info += "My name is bob";
+		System.out.println(info); //DIFFERENT OUTPUT	
+		info += " ";
+		info += "I am a builder";
+		
+		System.out.println(info); //this outputs 
+		//something different than the above sysout
+	}
+
+}

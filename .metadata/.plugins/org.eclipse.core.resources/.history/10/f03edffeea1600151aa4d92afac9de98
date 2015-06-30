@@ -1,0 +1,47 @@
+import java.util.*;
+import java.util.ArrayList.*;
+
+import java.io.*;
+
+public class Main {
+	public static void main(String args[]){
+		
+		Scanner reader = new Scanner(System.in);
+		
+		//angry, sad, quiet, excited, surprised, outraged, serious, animalistic
+		
+		String angryarg [] = {"yelled","warned","vowed","urged","threatened","taunted","stormed","sputtered","spat","sneered","snapped","shrilled","shouted","shot","scolded","screamed","retorted","retaliated","repeated","ranted","raged","provoked","protested","ordered","opined","objected","muttered","mocked","lied","lectured","jeered","interrupted","implied","hissed","grumbled","growled","gibed","exploded","disagreed","denied","demanded","dared","cursed","cried","countered","convinced","complained","commanded","clucked","claimed","choked","cautioned","burst out","broke in","boomed","bickered","bellowed","barked","badgered","accused","argued","avowed"};
+		
+		String sadupset [] = {"worried","whispered","whined","wept","warned","wailed","urged","stuttered","stammered","sputtered","sobbed","sniffed","sniffled","sneered","snapped","slurred","sighed","shouted","screamed","retaliated","resounded","quavered","pled","pleaded","opined","muttered","murmured","mumbled","moaned","lied","huffed","howled","grumbled","grunted","groaned","grimaced","fretted","exasperated","doubted","divulged","denied","croaked","cried","confessed","choked","chided","cautioned","breathed","begged","bawled","apologized"};
+		
+		String quiet [] = {"yawned","worried","wondered","whispered","whimpered","wheezed","told","stuttered","stammered","squeaked","speculated","sniffed","sniffled","sighed","resounded","remembered","related","reasoned","quietly","promised","prayed","pondered","pled","pleaded","panted","observed","muttered","mused","murmured","mumbled","moaned","intoned","hummed","huffed","grimaced","gently","ended","echoed","divulged","disclosed","demmurred","croaked","confided","confessed","coaxed","choked","chided","cautioned","breathed"};
+		
+		String loud [] = {"yelled","yakked","whined","wailed","vowed","trilled","stormed","snorted","sneezed","snapped","slurred","shrilled","shrieked","shouted","shot","scolded","scoffed","sassed","sang","reckoned","protested","proclaimed","piped","pestered","objected","nagged","marveled","laughed","jeered","hollered","gushed","gurgled","gloated","gibed","gawked","gasped","fretted","exploded","exclaimed","exasperated","dribbled","drawled","declared","crowed","coughed","cooed","chorused","chittered","chimed in","chattered","burst out","broke in","boasted","boomed","bellowed","barked"};
+		
+		String funny [] = {"yakked","teased","squealed","squeaked","sputtered","snorted","snickered","smirked","smiled","slurred","simpered","scoffed","sassed","quipped","mocked","mimicked","laughed","joked","jibed","jested","jeered","giggled","gawked","exasperated","drawled","crowed","chuckled","chortled","chimed in","cackled","beamed"};
+		
+		String excited [] = {"volunteered","squealed","squeaked","sputtered","sang","revealed","quipped","proclaimed","piped","nodded","marveled","lisped","laughed","hollered","gushed","exploded","exclaimed","exasperated","encouraged","disclosed","described","crowed","congratulated","chortled","chittered","chirped","chimed in","cheered","chattered","burst out","bugged","bubbled","bragged","boasted","blurted","beamed","babbled"};
+		
+		String surprised [] = {"squealed","squeaked","sputtered","snorted","shrieked","shouted","revealed","observed","noted","gurgled","gulp","gawked","gasped","exclaimed","burst out","broke in","bleated","blurted"};
+		
+		String outraged [] = {"yelled","wailed","threated","taunted","stormed","stammered","sputtered","spat","sneered","snarled","snapped","shrilled","shreiked","shouted","shot","screamed","roared","retorted","ranted","raged","provoked","objected","interrupted","howled","hollered","hissed","growled","exploded","exclaimed","demanded","cursed","countered","broke in","bellowed","barked","badgered"};
+		
+		String positive [] = {"thanked","started","smirked","smiled","sang","reassured","promised","praised","offered","nodded","hummed","gushed","greeted","encouraged","congratulated","confirmed","chirped","cheered","chattered","bragged","boasted","beamed","agreed","approved","assured"};
+		
+		String questions [] = {"worried","told","tested","suggested","reminded","recalled","quizzed","questioned","queried","puzzled","perplexed","mused","inquired","informed","imitated","hinted","guessed","explained","decided","confirmed","clarified","asked","answered"};
+		
+		String conversational [] = {"wondered","went on","volunteered","uttered","urged","told","theorized","tempted","surmised","suggested","stated","started","spoke","speculated","slurred","scoffed","revealed","responding","replied","repeated","reminded","remembered","remarked","related","reiterated","recounted","reckoned","recalled","reasoned","quoted","quipped","put in","protested","promosed","pointed out","offered","notified","noted","motioned","mentioned","maintained","informed","implied","hinted","guessed","greeted","finished","ended","drawled","described","demurred","declared","corrected","continued","concluded","commented","clarified","claimed","chimed in","chatted","called","broke in","bragged","bet","began","asked","added", "admitted","announced","answered", "asked"};
+		
+		String serious [] = {"warned","vowed","theorized","tested","surmised","suggested","stated","speculated","scolded","requested","reported","proposed","ordered","mused","maintained","lectured","intoned","informed","hypothesized","finished","explained","ended","doubted","divulged","disclosed","denied","declared","decided","dared","convinced","confided","confessed","concluded","conceded","commanded","claimed","choked","chided","cautioned","breathed","avowed","asserted","argued","apologized","acknowledged", "addressed","advised","affirmed"};
+		
+		String animalistic [] = {"wheezed","squealed","spat","sneezed","snarled","snapped","simpered","shreiked","sang","roared","purred","praised","pestered","panted","moaned","mimicked","imitated","howled","hissed","gurgled","growled","gawked","dribbled","crowed","croaked","bugged","barked","bleated"};
+		
+		String intimate [] = {"yawned","whispered","whimpered","told","tempted","stuttered","sniffled","smiled","simpered","sighed","quietly","purred","promised","pled","pleaded","panted","nodded","murmured","mumbled","moaned","intoned","grunted","groaned","gently","gasped","divulged","croaked","cried","confessed","coaxed","choked","breathed"};
+	
+		int bob  = intimate.ArrayList.size();
+		
+		
+		
+	}
+
+}

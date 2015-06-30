@@ -1,0 +1,19 @@
+//with Machine29 and Person29
+public class Interfaces29 {
+	
+	public static void main(String args[]){
+		 Machine29 mach1 = new Machine29();
+		 mach1.start();
+		 
+		 Person29 person1 = new Person29("Damianos");
+		 person1.greet();
+		 
+		 Info info1 = new Machine29(); //pointing at a class
+		 info1.showInfo();
+		 //this info1 object can only access the methods from Info
+		 
+		 Info info2 = person1; //pointing at a specific object defined above
+		 info2.showInfo();
+	}
+
+}

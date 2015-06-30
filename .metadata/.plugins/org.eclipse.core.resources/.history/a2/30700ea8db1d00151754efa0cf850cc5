@@ -1,0 +1,18 @@
+class Thing {
+	public String name;
+	public static String description;
+}
+public class StaticandFinal24 {
+	public static void main(String args[]){
+		
+		Thing thing1 = new Thing();
+		Thing thing2 =  new Thing();
+		
+		thing1.name = "Boyd";
+		thing2.name = "Sin";
+		
+		System.out.println(thing1.name);
+		System.out.println(thing2.name);
+	}
+	
+}
