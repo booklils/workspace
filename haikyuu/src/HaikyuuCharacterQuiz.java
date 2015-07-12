@@ -2,6 +2,9 @@
 //Lillian Hong
 //What am I doing
 //4.29.15
+/*
+KAGEHINA FTW
+*/
 import javax.swing.*;
 
 public class HaikyuuCharacterQuiz {
@@ -197,7 +200,6 @@ public class HaikyuuCharacterQuiz {
 		JOptionPane.showMessageDialog(null,"You are Yamaguchi!");
 	}
 		
-	
 
 }
 
