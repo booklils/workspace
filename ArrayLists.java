@@ -15,10 +15,14 @@ public class ArrayListy {
     //removing elements from the arraylist (using index!!):
     bananaBread.remove(1); //removes value 7, making the size 1, counting by index (first element is place 0)
     
-   
+    bananaBread.set(0, 98); //changes element at index 0 to 98 (it used to be 8) FIRST parameter is the index, second is value
     
-    bananaBread.set(0, 98); //changes element at index 0 to 98 (it used to be 
+     bananaBread.clear(); //used to clear ALL VALUES from the arraylist
     
+    bananaBread.trimToSize(); 
+    //trims the array to the amount of elements that it currently contains rather than the initial size
+    
+    //so many other methods just look at them
   }
 
 }
